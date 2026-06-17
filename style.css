@@ -21,7 +21,7 @@ body {
 
   /* FONT SIZE */
   --n-font-size: 1rem;
-  --m-font-size: 1.3rem;
+  --m-font-size: 1.4rem;
   --l-font-size: 2rem;
 }
 
@@ -199,6 +199,7 @@ header {
   left: 0;
   right: 0;
   z-index: -100;
+  user-select: none;
 }
 
 .hero-content {
@@ -222,7 +223,7 @@ header {
 .hero-content h3 {
   background-color: var(--color2);
   color: var(--nav-background);
-  width: 370px;
+  width: 300px;
   padding: 0.2rem;
   border-radius: 5px;
 }
@@ -250,9 +251,9 @@ header {
 @media screen and (max-width: 650px) {
   :root {
     /* FONT SIZE */
-    --n-font-size: 0.8rem;
-    --m-font-size: 1rem;
-    --l-font-size: 1.5rem;
+    --n-font-size: 1rem;
+    --m-font-size: 1.2rem;
+    --l-font-size: 1.8rem;
   }
 
   .nav-menu {
@@ -338,9 +339,9 @@ header {
 @media screen and (max-width: 450px) {
   :root {
     /* FONT SIZE */
-    --n-font-size: 0.6rem;
-    --m-font-size: 0.8rem;
-    --l-font-size: 1.2rem;
+    --n-font-size: 0.8rem;
+    --m-font-size: 1rem;
+    --l-font-size: 1.5rem;
   }
 
   /* HERO SECTION STYLING */
@@ -356,6 +357,6 @@ header {
   }
 
   .hero-content h3 {
-    width: 260px;
+    width: 253px;
   }
 }
