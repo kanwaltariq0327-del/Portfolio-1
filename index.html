@@ -1,74 +1,82 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
     <title>My Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="nav">
+      <nav class="nav">
+        <a href="#" class="logo">
+          <img src="./Images/logo1.png" />
+        </a>
 
-            <a href="#" class="logo">
-                <img src="./Images/logo1.png" >
-            </a>
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list">
+            <li>
+              <a href="#" class="nav-link">
+                <span>Home</span>
+                <span>Home</span>
+              </a>
+            </li>
 
-            <div class="nav-menu" id="nav-menu">
+            <li>
+              <a href="#" class="nav-link">
+                <span>About Me</span>
+                <span>About Me</span>
+              </a>
+            </li>
+          </ul>
+        </div>
 
-                <ul class="nav-list">
-                    <li>
-                        <a href="#" class="nav-link">
-                           <span>Home</span>
-                           <span>Home</span>
-                        </a>
-                    </li>
+        <div class="nav-btns">
+          <button class="nav-contact" id="nav-contact">
+            <span>Contact Me</span>
+            <span>Contact Me</span>
+          </button>
 
-                    <li>
-                        <a href="#" class="nav-link">
-                        <span>About Me</span>
-                        <span>About Me</span>
-                    </a>
-                    </li>
-                </ul>
+          <button class="nav-toggle" id="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-x"></i>
+          </button>
+        </div>
+      </nav>
 
-            </div>
-
-            <div class="nav-btns">
-                <button class="nav-contact" id="nav-contact">
-                    <span>Contact Me</span>
-                    <span>Contact Me</span>
-                </button>
-
-                <button class="nav-toggle" id="nav-toggle">
-                    <i class="fa-solid fa-bars"></i>
-                    <i class="fa-solid fa-x"></i>
-                </button>
-            </div>
-
-        </nav>
-
-        <section class="hero-section">
-
-            <img src="./Images/green inspiration_.jpg" alt="" class="hero-img">
-            <div class="hero-content">
-                <p>Hi ! My Name is</p>
-                <h1>KANWAL TARIQ</h1>
-                <div>
-                    <h3>Aspiring Front-End Developer</h3>
-                </div>
-                <p>I’m a self-taught front-end developer focused on building responsive and clean web interfaces using HTML, CSS, JavaScript, and React.</p>
-            </div>
-
-        </section>
-
+      <section class="hero-section">
+        <img src="./Images/green inspiration_.jpg" alt="" class="hero-img" />
+        <div class="hero-content animate">
+          <p class="animate">Hi ! My Name is</p>
+          <h1>KANWAL TARIQ</h1>
+          <div>
+            <h3 class="animate">Aspiring Front-End Developer</h3>
+          </div>
+          <p>
+            I’m a self-taught front-end developer focused on building responsive
+            and clean web interfaces using HTML, CSS, JavaScript, and React.
+          </p>
+        </div>
+      </section>
     </header>
     <!-- ------------------- -->
-     <main>
-        
-     </main>
+    <main>
+      <section class="skill-section">
+        <div class="skills">
+          <div class="skill-tag">
+            <img
+              src="./Images/ChatGPT Image Jun 20, 2026, 05_02_24 PM.png"
+              alt=""/>
+              <p>HTML</p>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
