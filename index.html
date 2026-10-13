@@ -12,7 +12,61 @@
   </head>
   <body>
     <header>
-      <nav class="nav">
+      <section class="led-container" id="ledBox">
+        <svg
+          class="name-svg"
+          viewBox="0 0 900 180"
+          role="img"
+          aria-label="KANWAL TARIQ in animated green LED lettering"
+        >
+          <text
+            class="name-outline"
+            x="250"
+            y="120"
+            text-anchor="middle"
+            textLength="420"
+            lengthAdjust="spacingAndGlyphs"
+          >
+            KANWAL
+          </text>
+          <text
+            class="name-outline"
+            x="550"
+            y="220"
+            text-anchor="middle"
+            textLength="420"
+            lengthAdjust="spacingAndGlyphs"
+          >
+            TARIQ
+          </text>
+
+          <text
+            class="name-tracer"
+            x="250"
+            y="120"
+            text-anchor="middle"
+            textLength="420"
+            lengthAdjust="spacingAndGlyphs"
+          >
+            KANWAL
+          </text>
+
+          <text
+            class="name-tracer"
+            x="550"
+            y="220"
+            text-anchor="middle"
+            textLength="420"
+            lengthAdjust="spacingAndGlyphs"
+          >
+            TARIQ
+          </text>
+        </svg>
+      </section>
+
+
+      <div class="container">
+        <nav class="nav">
         <a href="#" class="logo">
           <img src="./Images/logo1.png" />
         </a>
@@ -48,8 +102,8 @@
         </div>
       </nav>
 
+      
       <section class="hero-section">
-        <img src="./Images/green inspiration_.jpg" alt="" class="hero-img" />
         <div class="hero-content animate">
           <p class="animate">Hi ! My Name is</p>
           <h1>KANWAL TARIQ</h1>
@@ -61,14 +115,19 @@
             and clean web interfaces using HTML, CSS, JavaScript, and React.
           </p>
         </div>
+
+        <div class="hero-img">
+          <img src="./Images/portfolio-img.png" alt="" />
+        </div>
       </section>
+      </div>
     </header>
     <!-- ------------------- -->
     <main>
       <!-- SKILLS SECTION -->
 
       <section class="skill-section">
-        <img src="./Images/imgbakd.png" alt="" class="skills-img" />
+        <img src="./Images/imgbakd.png" class="skills-img" />
 
         <section class="section">
           <h2>SKILLS</h2>
@@ -121,9 +180,25 @@
                 <span>React</span>
               </div>
             </li>
+
+            <li class="skills">
+              <div class="skill-tag">
+                <img src="./Images/tagimg2.png" alt="" />
+                <span>Tailwind CSS</span>
+              </div>
+            </li>
           </ul>
         </section>
       </section>
+
+      <!-- <div class="background"></div>
+
+      <div class="name-container">
+        <h1 class="name">KANWAL TARIQ</h1>
+        <p class="subtitle">ILLUMINATE YOUR WORLD</p>
+      </div> -->
+
+      
     </main>
 
     <script src="script.js"></script>
